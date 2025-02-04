@@ -17,7 +17,7 @@ int main() {
             binaryResult += "1";
     }
     if (temp == 0) {
-        binaryResult += "0";
+        binaryResult += "0"; 
     }
     for (int i = 1; temp > 1; i++) {
         temp = temp / 2;

@@ -10,8 +10,6 @@ int main() {
     cout << "Input decimal number: ";
     cin >> decimalInput;
 
-    //cout << pow(2, 5) << endl;
-
     float temp = decimalInput;
     string binaryResult = "";
     //special cases 1 & 0
@@ -49,8 +47,6 @@ int main() {
         power++;
     }
     power--;
-
-    char binaryArray[power];
 
     for (char c : binaryNumber) {
         if (c == '1') {
